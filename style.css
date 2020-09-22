@@ -4,27 +4,27 @@
     padding: 0px;
 }
  body{
-    background-image: url('../joke.png');
+    background-image: url('/joke.png');
     background-size: cover;
     width:100vw;
     height: 100vh;
-    /* opacity: 0.8; */
+    
     background-attachment: fixed;
 
 
 } 
  #head{
-   margin-top: 10vh;
+    margin-right: 450px;
+    margin-top: 10px;
+    text-align: center;
     padding:10vh;
-    font-size: 40px;
+    font-size: 50px;
     font-family:'Tajawal', sans-serif;
-    background-color: rgb(248, 216, 175);
+    
     border-radius: 200px;
-    width: 30vw;
+    width: 40vw;
 } 
 #container{
-    border: solid rgb(139, 139, 253) 5px;
-    border-radius: 20px;
     font-family:'Tajawal', sans-serif;
     line-height: 40px;
    background-color:bisque;
@@ -32,42 +32,42 @@
     width: 65%;
     margin: auto;
     margin-top: 20px;
+    border-radius: 200px;
 }
 
-.swal-overlay {
-    background-color: rgba(43, 165, 137, 0.068);
-}
 
-.swal{
-    font-family: 'Tajawal', sans-serif;
-}
 #butt{
     font-size: 30px;
     width: 20vw;
     height:10vh;
     margin-top:4vh ;
-    border-radius: 50px;
-    background-color: rgb(110, 110, 248);
+    margin-right: 1.5px;
+    border-radius: 50%;
+    background-color: black;
     color: whitesmoke;
     outline: none;
     border: none;
     
-
 }
-#num{
-   
-   margin-top: 10px; 
-   border-radius: 50px;
-    background-color:  gray;
+#butt:hover{
+    cursor: pointer;
+    background-color:grey;
     color: whitesmoke;
-    font-size: 30px;
-    
 }
-#title{
+
+#query{
     font-size: 30px;
-    color:blue ;
+    color:black ;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-#text{
+#answer{
     font-size: 25px;
+    background-color: black;
+    color: whitesmoke;
+    width: 75%;
+    border-radius: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     
 }
